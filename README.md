@@ -19,7 +19,7 @@ this tree contains a location (u, v) and has up to four children:
 
 The classes Location and Pair used to represent locations and pairs of elements respectively.
 
-The class VehicleHiringManager, which stores the locations of vehicles and allows to add, remove and move vehicles
+The class VehicleHiringManager, stores the locations of vehicles and allows to add, remove and move vehicles
 to a new position. Vehicles are identified by a key of type String. An important functionality of this class is
 finding all vehicles within a square centered at the customer’s location.
 
