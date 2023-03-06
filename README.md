@@ -11,10 +11,10 @@ that a single cell may contain several vehicles and customers. When a customer r
 
 To store locations for efficient search, a tree structure similar to a BST is used. In addition to data, each node of
 this tree contains a location (u, v) and has up to four children:
- The nodes in the sub-tree rooted at Child 1 contain locations (x, y) satisfying: x < u and y ≤ v.
- The nodes in the sub-tree rooted at Child 2 contain locations (x, y) satisfying: x ≤ u and y > v.
- The nodes in the sub-tree rooted at Child 3 contain locations (x, y) satisfying: x > u and y ≥ v.
- The nodes in the sub-tree rooted at Child 4 contain locations (x, y) satisfying: x ≥ u and y < v.
+- The nodes in the sub-tree rooted at Child 1 contain locations (x, y) satisfying: x < u and y ≤ v.
+- The nodes in the sub-tree rooted at Child 2 contain locations (x, y) satisfying: x ≤ u and y > v.
+- The nodes in the sub-tree rooted at Child 3 contain locations (x, y) satisfying: x > u and y ≥ v.
+- The nodes in the sub-tree rooted at Child 4 contain locations (x, y) satisfying: x ≥ u and y < v.
 
 
 The classes Location and Pair used to represent locations and pairs of elements respectively.
